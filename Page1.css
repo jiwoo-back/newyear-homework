@@ -1,0 +1,311 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600');
+
+html{
+  font-size: 10px;
+}
+
+body{
+font-family: 'Poppins', sans-serif;
+color: rgba(51, 51, 51, 0.90);
+font-size: 1.6rem;
+
+}
+
+ul{
+  list-style: none;
+}
+
+a:link, a:visited {
+  color: inherit; /*상속값 그대로 열어달라 */
+  text-decoration: none;
+}
+
+html,body,div,header,nav,section,aside,article,footer,figure,figcaption,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,fieldset{
+	margin:0;
+	padding:0;
+
+}
+
+/*타이틀 글씨*/
+h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 4.4rem;
+}
+
+hr{
+  margin-bottom: 100px;
+  display: block;
+  opacity: 0.2;
+  background-color: #e8e8e8;
+
+}
+
+
+.wrapper{
+  /*background: green;*/
+}
+
+/*몸통만들때마다 넣을것*/
+.header, .intro, .templet-features,.templet-video,.templet-clients,.footer{
+ width: 1140px;
+ margin: 0 auto;
+}
+
+/*하단 글씨 가운데 정렬*/
+.templet-features, .templet-tryitnow, .templet-clients>p{
+  text-align: center;
+  /*margin-top: 25px;*/
+}
+
+.header{
+  height: 167px;
+  padding-top: 80px;
+  padding-bottom: 67px;
+  display: block;
+}
+
+
+.logo{
+  position:absolute;
+  top: 67px;
+}
+
+.main-menu{
+  display: inline-block;
+  margin-left: 100px;
+  color: inherit;
+}
+
+.main-menu li, .main-menu a{
+  display: inline-block;
+  margin: 0 3px;
+}
+
+.member{
+  float: right;
+}
+
+.sign-up{
+  background: white;
+  padding: 5px 35px;
+  border: 1px solid #03a67b;
+  border-radius: 4px;
+  color: #03a67b;
+}
+
+.login{
+ margin-right: 20px;
+}
+
+/*------인------트------로-------*/
+
+.intro{
+ height: 493px;
+ position: relative;
+ font-size: 0;
+}
+
+.intro-heading{
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: bold;
+  /*width: 501px;*/
+  height: 42px;
+  font-size: 52px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.12;
+  letter-spacing: -1.3px;
+  text-align: left;
+  color: #333333;
+}
+
+.intro p{
+  width: 528px;
+  height: 41px;
+  display: block;
+  margin-bottom: 36px;
+  margin-top: 25px;
+  font-size: 1.5rem;
+  color: rgba(51, 51, 51, 0.5);
+}
+
+.intro input{
+  width: 289px;
+  height: 50px;
+  background: #d5d5d5;
+  border: 0;
+  padding-left: 24px;
+  box-sizing: border-box;
+  inline-hight: 10px;
+  /*text-align: left;*/
+}
+
+.input-text{
+  width: 200px;
+  height: 50px;
+  background: rgba(3,166,123,0.90);
+  padding: 0;
+  color: white;
+  letter-spacing: 3px;
+  border: 1px solid #03a67b;
+  border-radius: 0 4px 4px 0;
+}
+
+.intro img{
+position: absolute;
+top: -153px;
+right: 147px;
+}
+
+/*------피------쳐------스-------*/
+
+.templet-features{
+  height: 564px;
+  margin-bottom: 100px;
+}
+
+.features{
+  height: 196px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  margin-top: 66px;
+}
+
+/*하단 작은 글씨 넣기*/
+.templet-features p, .templet-tryitnow p, .templet-clients p, .clients-all{
+  color: rgba(51, 51, 51, 0.5);
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.feature{
+  width: 312px;
+  text-align: center;
+}
+
+.feature img + p{
+color: inherit;
+font-weight: 600;
+letter-spacing: 3px;
+}
+
+.feature img{
+  margin-bottom: 10px;
+}
+
+/*------비------디------오-------*/
+
+.templet-video{
+  text-align: center;
+}
+
+.templet-video img{
+  width: 650px;
+  height: 437px;
+  margin-top: 41px;
+  margin-bottom: 93px;
+}
+
+ /*------------트라이-------------*/
+
+.templet-tryitnow{
+  height: 402px;
+}
+
+.button{
+  margin: 26px 6px;
+}
+.button1{
+  width: 200px;
+  height: 50px;
+  background: rgba(3,166,123,0.90);
+  padding: 0;
+  color: white;
+  letter-spacing: 3px;
+  border: 1px solid #03a67b;
+  border-radius: 4px;
+}
+
+.button2{
+  width: 200px;
+  height: 50px;
+  background: white;
+  border: 2px solid #03a67b;
+  border-radius: 4px;
+  padding: 0;
+  color: #03a67b;
+  letter-spacing: 3px;
+}
+
+/*-----------클라이언트------------*/
+
+.templet-clients{
+  height: 614px;
+  /*width: 1059px;*/
+}
+
+
+.clients-all div{
+  width: 290px;
+}
+
+.clients-all{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 66px;
+}
+
+.clients1, .clients2, .clients3{
+  margin-top: 30px;
+  font-style: 600;
+  letter-spacing: 3px;
+  color: #333333;
+}
+
+.clients-position{
+/*margin-top: 11px;*/
+color: rgba(51, 51, 51, 0.25);
+}
+
+
+/*-----------푸터------------*/
+
+.footer{
+  position: relative;
+  margin-bottom: 66px;
+  }
+
+.footer>img{
+  /*background: gray;*/
+  position: absolute;
+  top: 6px;
+  left:0;
+}
+
+.guide-list{
+  /*letter-spacing: 1px;*/
+  text-align: center;
+}
+
+.guide-list li, .guide-list a{
+  display: inline-block;
+  margin: 0 3px;
+}
+
+.tech-logo{
+  position: absolute;
+  top: 0px;
+  right:0;
+}
+
+.tech-logo li, .tech-logo a{
+  display: inline-block;
+  margin: 0 3px;
+}
