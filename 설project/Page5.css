@@ -1,0 +1,561 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600');
+
+html{
+  font-size: 10px;
+}
+
+body{
+font-family: 'Poppins', sans-serif;
+color: rgba(51, 51, 51, 0.90);
+font-size: 1.6rem;
+
+}
+
+ul{
+  list-style: none;
+}
+
+a:link, a:visited {
+  color: inherit; /*상속값 그대로 열어달라 */
+  text-decoration: none;
+}
+
+html,body,div,header,nav,section,aside,article,footer,figure,figcaption,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,fieldset,hr{
+	margin:0;
+	padding:0;
+
+}
+
+hr{
+  opacity: 0.2;
+  background-color: #e8e8e8;
+}
+
+/*타이틀 글씨*/
+h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 4.4rem;
+}
+
+.wrapper{
+  /*background: green;*/
+}
+
+/*몸통만들때마다 넣을것*/
+.header, .intro, .features1, .features2, .key-features, .portfolio,.crew,.contact,.footer{
+ width: 1140px;
+ margin: 0 auto;
+}
+
+/*상단 가운데 정렬*/
+.intro-heading,.portfolio-heading{
+  /*background: gray;*/
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+/*하단 작은 글씨 넣기*/
+.features-about1>p,.features-about2>p,.key-features-about>p,.key-point ul>li:last-child, .portfolio-all ul li:last-child{
+  color: rgba(51, 51, 51, 0.5);
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+/*하단 글씨 가운데 정렬*/
+.intro>p, .portfolio>p, .contact>p{
+  text-align: center;
+  color: rgba(51, 51, 51, 0.6);
+}
+
+.header{
+  /*background: pink;*/
+  height: 99px;
+  padding-top: 80px;
+  padding-bottom: 67px;
+  display: block;
+}
+
+
+.logo{
+  position:absolute;
+  top: 67px;
+}
+
+.main-menu{
+  display: inline-block;
+  margin-left: 100px;
+  color: inherit;
+}
+
+.main-menu li, .main-menu a{
+  display: inline-block;
+  margin: 0 3px;
+}
+
+.member{
+  float: right;
+}
+
+.sign-up{
+  background: white;
+  padding: 5px 35px;
+  border: 1px solid #03a67b;
+  border-radius: 4px;
+  color: #03a67b;
+}
+
+.login{
+ margin-right: 20px;
+}
+
+/*------인------트------로-------*/
+.intro{
+  position: relative;
+  /*background: green;*/
+  height: 554px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.caption img{
+  margin-top: 75px;
+  top: 183px;
+  left: 39%;
+}
+
+.caption{
+  color: white;
+  display: inline-block;
+
+}
+
+.caption1{
+  background: #03a67b;
+  padding: 21px 25px;
+  position: absolute;
+  top: 255px;
+  left: 110px;
+  border: 1px solid #03a67b;
+  border-radius: 4px;
+}
+
+.caption2{
+  background: #03a67b;
+  padding: 21px 25px;
+  position: absolute;
+  top: 355px;
+  right:90px;
+  border: 1px solid #03a67b;
+  border-radius: 4px;
+}
+
+/*---------------features1--------------------*/
+.features1, .features2{
+  position: relative;
+}
+
+.features-about1{
+  /*background: gray;*/
+  display: inline-block;
+  position: absolute;
+  top: 232px;
+  right: 0px;
+}
+
+.features-about1 p{
+  /*background: green;*/
+  width: 426px;
+  height: 65px;
+}
+
+.features1 img {
+  background:  #e8e8e8;
+  padding: 177px 251px;
+  margin: 100px 0px 100px 0px;
+  display: inline-block;
+}
+
+.features1 > p{
+  display: inline-block;
+  font-weight: bolder;
+  letter-spacing: -5px;
+  top:170px;
+  right:270px;
+	font-size: 180px;
+	color: rgba(51, 51, 51, 0.08);
+  position: absolute;
+}
+
+/*---------------features2--------------------*/
+/*.features1{
+  position: relative;
+}*/
+
+.features-about2{
+  /*background: gray;*/
+  display: inline-block;
+  position: absolute;
+  top: 232px;
+  left: 0px;
+}
+
+.features-about2 p{
+  /*background: green;*/
+  width: 426px;
+  height: 65px;
+}
+
+.features2 img {
+  background:  #e8e8e8;
+  padding: 177px 251px;
+  margin: 100px 0px 100px 579px;
+  display: inline-block;
+}
+
+.features2 > p{
+  display: inline-block;
+  font-weight: bolder;
+  letter-spacing: -5px;
+  top:170px;
+  left:-10px;
+	font-size: 180px;
+	color: rgba(51, 51, 51, 0.08);
+  position: absolute;
+}
+/*------------key features-----------------*/
+
+.key-features-heading{
+  display: inline-block;
+}
+.key-features-about{
+  margin-top: 103px;
+}
+
+.key-features-about p{
+  width: 685px;
+  height: 41px;
+  /*background: gray;*/
+}
+
+.key-point{
+  /*background: gray;*/
+  width: 1097px;
+  height: 440px;
+  margin-top: 58px;
+  position: relative;
+}
+
+.first-key,.third-key,.fourth-key{
+ position: absolute;
+}
+
+.first-key li:nth-child(2){
+  color: #333333;
+  /*background: pink;*/
+  margin-left: 170px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.second-key li:nth-child(2){
+  color: #333333;
+  /*background: pink;*/
+  margin-left: 754px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.third-key li:nth-child(2){
+  color: #333333;
+  /*background: pink;*/
+  margin-left: 170px;
+  margin-top: 130px;
+  display: inline-block;
+}
+
+.fourth-key li:nth-child(2){
+  color: #333333;
+  /*background: pink;*/
+  margin-left: 754px;
+  margin-top: 130px;
+  display: inline-block;
+}
+
+.first-key li:last-child,.third-key li:last-child {
+  color: #333333;
+  /*background: blue;*/
+  width: 346px;
+  height: 65px;
+  margin-left: 170px;
+}
+
+.second-key li:last-child,.fourth-key li:last-child  {
+  color: #333333;
+  /*background: blue;*/
+  width: 346px;
+  height: 65px;
+  margin-left: 754px;
+}
+
+.key-point img{
+  box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.1);
+  border-radius: 50%
+}
+
+.key-point ul>li:nth-child(2){
+  text-transform: uppercase;
+  letter-spacing: 3.5px;
+  font-weight: 600;
+}
+
+.first-key img{
+  /*background: yellow;*/
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.second-key img{
+  /*background: yellow;*/
+  position: absolute;
+  top: 0;
+  left: 580px;
+}
+
+.third-key img{
+  /*background: yellow;*/
+  position: absolute;
+  top: 120px;
+  left: 0px;
+}
+
+.fourth-key img{
+  /*background: yellow;*/
+  position: absolute;
+  top: 120px;
+  left: 580px;
+}
+
+/*-----------포트폴리오------------*/
+.portfolio{
+  height: 732px;
+  position: relative;
+}
+
+.portfolio p{
+ /*background: green;*/
+ width: 685px;
+ height: 41px;
+ margin: 0 auto;
+}
+
+.portfolio-heading, .crew-heading,.contact-heading{
+  margin-top: 80px;
+}
+
+.portfolio-all div{
+  width: 290px;
+  /*background: red;*/
+}
+
+.portfolio-all{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 66px;
+  position: relative;
+  /*background: pink;*/
+}
+
+.portfolio-all img{
+  background:  #e8e8e8;
+  padding: 70px 141px;
+  display: inline-block;
+}
+
+.portfolio-all div{
+  /*background: green;*/
+  width: 340px;
+  /*height: 377px;*/
+  display: inline-block;
+  box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.portfolio-all ul li:last-child{
+  width: 212px;
+  /*background: gray;*/
+  padding: 0 64px;
+  margin-bottom: 35px;
+}
+
+.portfolio1{
+ font-weight: 600;
+	line-height: 1.14;
+	letter-spacing: 3.5px;
+}
+
+.portfolio1, .portfolio2, .portfolio3{
+  margin-top: 30px;
+  font-style: bold;
+  color: #333333;
+  text-transform: uppercase;
+  letter-spacing: 3.5px;
+}
+
+.portfolio-project{
+color: rgba(51, 51, 51, 0.25);
+}
+
+.arrow-prev{
+  /*background: yellow;*/
+  position: absolute;
+  top: 440px;
+  left: -44px;
+}
+
+.arrow-next{
+  /*background: yellow;*/
+  position: absolute;
+  top: 440px;
+  right: -44px;
+}
+
+.arrow-prev, .arrow-next{
+  cursor: pointer;
+  width: 20px;
+  height: 38px;
+  text-indent: 38px;
+  white-space: nowrap;
+  border: 0px;
+  background: url(icons/arrow.png) no-repeat 0 0;
+  overflow: hidden;
+}
+
+.arrow-prev{
+  background-position: 0 100%;
+}
+.arrow-next{
+  background-position: 100% 0;
+}
+
+
+/*------------the-crew-----------------*/
+.crew{
+  height: 613px;
+  position: relative;
+}
+
+.crew-all{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  text-align: center;
+  /*background: pink;*/
+}
+
+.crew-list{
+  background: white;
+  display: inline-block;
+  width: 266px;
+  height: 315px;
+  margin-top: 70px;
+  text-align: center;
+  position: relative;
+  box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.crew-all p img{
+  background: white;
+  position: absolute;
+  top: 48px;
+  left: 82px;
+}
+.crew-name{
+  margin-top: 216px;
+  font-weight: 600;
+	letter-spacing: 3.5px;
+
+}
+
+.crew-info{
+  /*display: inline-block;*/
+  vertical-align: bottom;
+  word-spacing: 8px;
+}
+.crew-position{
+opacity: 0.7;
+}
+
+/*-------------contact---------------*/
+.contact{
+  text-align: center;
+  height: 350px;
+}
+
+.contact>p{
+  width: 278px;
+  height: 89px;
+  display: inline-block;
+}
+.contact-all{
+  color: #03a67b;
+  margin-top: 29px;
+}
+
+/*-------------footer-----------------*/
+.footer{
+  position: relative;
+  height: 180px;
+
+}
+
+h2.footer-heading{
+text-align: left;
+}
+
+.footer>p{
+  /*background: tomato;*/
+  width: 220px;
+  height: 65px;
+  opacity: 0.7;
+
+}
+
+.navigation{
+  /*background: gray;*/
+  /*display: inline-block;*/
+  margin-left: 250px;
+  position: absolute;
+  top: 25px;
+
+  /*left: 90px;*/
+}
+
+
+.navigation > li{
+  float: left;
+  top: 0;
+  /*background: blue;*/
+  margin-left: 153px;
+  margin-top: 47px;
+  white-space: nowrap;
+
+}
+
+.navigation >li > a{
+  /*background: yellow;*/
+  position: absolute;
+  padding-top: 6px;
+  top:0;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: #333333;
+}
+
+.col{
+    opacity: 0.7;
+}

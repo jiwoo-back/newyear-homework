@@ -1,0 +1,434 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600');
+
+.hedden{
+  position: absolute;
+  left: -9999em;
+}
+
+html{
+  font-size: 10px;
+}
+
+body{
+font-family: 'Poppins', sans-serif;
+color: rgba(51, 51, 51, 0.90);
+font-size: 1.6rem;
+
+}
+
+ul{
+  list-style: none;
+}
+
+a:link, a:visited {
+  color: inherit; /*상속값 그대로 열어달라 */
+  text-decoration: none;
+}
+
+html,body,div,header,nav,section,aside,article,footer,figure,figcaption,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,fieldset,hr{
+	margin:0;
+	padding:0;
+
+}
+
+hr{
+  opacity: 0.2;
+  background-color: #e8e8e8;
+}
+
+/*타이틀 글씨*/
+h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 4.4rem;
+}
+
+.wrapper{
+  /*background: green;*/
+}
+
+/*몸통만들때마다 넣을것*/
+.header, .intro,.features2,.key-features,.company-achive,.company-story,.team-intro,.footer{
+ width: 1140px;
+ margin: 0 auto;
+}
+
+/*상단 가운데 정렬*/
+
+.achive-heading, .story-heading,.team-intro-heading{
+  margin-top: 80px;
+}
+
+
+/*하단 작은 글씨 넣기*/
+/*{
+  color: rgba(51, 51, 51, 0.5);
+  font-size: 1.5rem;
+  margin-top: 20px;
+}*/
+
+
+/*하단 글씨 가운데 정렬*/
+ .company-story>p, .team-intro>p{
+  text-align: center;
+  color: rgba(51, 51, 51, 0.6);
+}
+
+/*하단 글씨 좌측 정렬*/
+.intro>p, .features-about2>p{
+width: 489px;
+height: 65px;
+color: rgba(51, 51, 51, 0.6);
+}
+
+.header{
+  /*background: pink;*/
+  height: 99px;
+  padding-top: 80px;
+  padding-bottom: 67px;
+  display: block;
+}
+
+
+.logo{
+  position:absolute;
+  top: 67px;
+}
+
+.main-menu{
+  display: inline-block;
+  margin-left: 800px;
+  color: inherit;
+}
+
+.main-menu li, .main-menu a{
+  display: inline-block;
+  margin: 0 3px;
+}
+
+
+/*------인------트------로-------*/
+
+.intro{
+ height: 493px;
+ position: relative;
+ font-size: 0;
+}
+
+.intro-heading{
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: bold;
+  /*width: 501px;*/
+  height: 42px;
+  font-size: 52px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.12;
+  letter-spacing: -1.3px;
+  text-align: left;
+  color: #333333;
+}
+
+.intro p{
+  width: 528px;
+  height: 41px;
+  display: block;
+  margin-bottom: 36px;
+  margin-top: 25px;
+  font-size: 1.5rem;
+}
+
+
+.input-text{
+  width: 200px;
+  height: 50px;
+  background: rgba(3,166,123,0.90);
+  color: white;
+  letter-spacing: 3px;
+  border: 1px solid #03a67b;
+  border-radius: 4px;
+  margin-top: 36px;
+}
+
+/*---------------features2--------------------*/
+.features2{
+  position: relative;
+}
+
+.features-about2{
+  /*background: gray;*/
+  display: inline-block;
+  position: absolute;
+  top: 232px;
+  left: 0px;
+}
+
+.features-about2 p{
+  /*background: green;*/
+  width: 426px;
+  height: 65px;
+}
+
+.features2 img {
+  background:  #e8e8e8;
+  padding: 148px 228px;
+  margin: 100px 0px 100px 579px;
+  display: inline-block;
+}
+
+/*------------the-crew-----------------*/
+.key-features{
+  height: 330px;
+  position: relative;
+}
+
+.key-features-all{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  text-align: center;
+  /*background: pink;*/
+}
+
+.key-features-list{
+  display: inline-block;
+  width: 213px;
+  margin-top: 60px;
+  text-align: center;
+  position: relative;
+}
+
+.key-num{
+  color: #03a67b;
+  font-weight:900;
+  font-size: 4.8rem;
+  /*background: white;*/
+  position: absolute;
+  width: 213px;
+  top: 0px;
+  padding: 0 auto;
+  letter-spacing: -1px;
+}
+
+.key-point{
+  margin: 80px 0 18px 0;
+  font-weight:600;
+	line-height: 1.14;
+	letter-spacing: 3px;
+}
+
+.key-explain{
+  color:  rgba(51, 51, 51, 0.5);
+  font-size: 1.4rem;
+}
+
+
+/*-----------어취브------------*/
+
+/*-----------스토리------------*/
+
+
+.company-achive{
+  /*background: gray;*/
+  height: 630px;
+}
+
+.company-story{
+  height: 732px;
+}
+
+.achives div, .stories div{
+  width: 335px;
+  /*background: navy;*/
+}
+
+.company-achive p,.company-story p{
+ /*background: green;*/
+ width: 685px;
+ height: 41px;
+ margin: 0 auto;
+ text-align: center;
+ font-size: 1.5rem;
+ color: rgba(51, 51, 51, 0.5);
+}
+
+.achives,.stories {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 66px;
+  /*background: pink;*/
+}
+
+
+.achives ul li:last-child, .stories ul li:last-child{
+  /*background: red;*/
+  margin-top: 25px;
+  color: rgba(51, 51, 51, 0.6);
+}
+
+
+li.achive1,li.story1{
+  /*background: red;*/
+  width: 210px;
+  height: 29px;
+  margin-top: 39px;
+  font-weight: bold;
+  color: #333333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.29;
+  padding: 0 62px;
+}
+
+.achives img{
+  display: inline-block;
+}
+
+.stories img{
+  background:  #e8e8e8;
+  padding: 91px 139px;
+  display: inline-block;
+}
+
+/*---------------team------------------*/
+
+.teams img{
+  background: #e8e8e8;
+  padding: 85px 152px;
+  /*margin: 0 10px;*/
+}
+.teams {
+  width: 1140px;
+  /*background: green;*/
+  margin-top: 66px;
+  margin-bottom: 100px;
+  position: relative;
+}
+.team-name p:first-child{
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.team-name p:last-child{
+  width: 270px;
+  height: 85px;
+  margin-top: 11px;
+  color: rgba(51, 51, 51, 0.6);
+  /*font-size: 1.6rem;*/
+  /*background: red;*/
+}
+
+.team-name{
+  /*background: pink;*/
+  background: #e8e8e8;
+  position: absolute;
+  text-align: center;
+  top:0;
+  left: 386.5px;
+  padding: 54px 49px 75px 49px;
+}
+
+.team1, .team2{
+display: flex;
+flex-flow: row nowrap;
+justify-content: space-between;
+text-align: center;
+margin-bottom: 20px;
+
+}
+
+
+/*-------------footer-----------------*/
+.footer{
+  position: relative;
+  height: 220px;
+  /*font-size: 0;*/
+}
+
+h2.footer-heading{
+text-align: left;
+}
+
+.footer>p{
+  /*background: tomato;*/
+  width: 312px;
+  height: 41px;
+  color: rgba(51, 51, 51, 0.6);
+
+}
+.contact-us dt{
+  letter-spacing: 3.5px;
+  font-weight: 600;
+}
+
+.contact-us dd{
+  opacity: 0.7;
+	font-family: 1.6rem;
+	color: rgba(51, 51, 51, 0.7);
+}
+
+.contact-info{
+  /*background: gray;*/
+  margin-left: 388px;
+  position: absolute;
+  top: 28px;
+  /*left: 90px;*/
+}
+
+.contact-info-2{
+  /*background: gray;*/
+  margin-left: 774px;
+  position: absolute;
+  top: 28px;
+  /*left: 90px;*/
+}
+
+.contact-info dd {
+  width: 321px;
+  margin-top: 17px;
+}
+
+.contact-info-2 dd{
+  width: 213px;
+  margin-top: 17px;
+}
+
+.input-section{
+  font-size: 0;
+  position: absolute;
+  top: 100px;
+  right: 60px;
+}
+
+
+.footer input{
+  width: 310px;
+  height: 42px;
+  background: #d5d5d5;
+  border: 0;
+  padding-left: 24px;
+  box-sizing: border-box;
+  margin-top: 36px;
+  /*text-align: left;*/
+}
+
+.contact-input{
+  width: 50px;
+  height: 42px;
+  background: rgba(3,166,123,0.90);
+  color: white;
+  letter-spacing: 3px;
+  border: 1px solid #03a67b;
+  border-radius: 0 4px 4px 0;
+  position: absolute;
+  top:36px;
+}
+
+/*.input-section{
+  background: brown;
+}*/

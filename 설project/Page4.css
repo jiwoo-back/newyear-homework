@@ -1,0 +1,565 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600');
+
+.hedden{
+  position: absolute;
+  left: -9999em;
+}
+
+html{
+  font-size: 10px;
+}
+
+body{
+font-family: 'Poppins', sans-serif;
+color: rgba(51, 51, 51, 0.90);
+font-size: 1.6rem;
+
+}
+
+ul{
+  list-style: none;
+}
+
+a:link, a:visited {
+  color: inherit; /*상속값 그대로 열어달라 */
+  text-decoration: none;
+}
+
+html,body,div,header,nav,section,aside,article,footer,figure,figcaption,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,fieldset,hr,img{
+	margin:0;
+	padding:0;
+
+}
+
+hr{
+  opacity: 0.2;
+  background-color: #e8e8e8;
+}
+
+/*타이틀 글씨*/
+h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 4.4rem;
+}
+
+.wrapper{
+  /*background: green;*/
+}
+
+/*몸통만들때마다 넣을것*/
+.features,.portfolio,.company-services,.blog,.footer{
+ width: 1140px;
+ margin: 0 auto;
+}
+
+/*상단 가운데 정렬*/
+
+.services-heading, .blog-heading,.contacts-heading{
+  margin-top: 80px;
+}
+
+
+
+/*하단 작은 글씨 넣기*/
+/*{
+  color: rgba(51, 51, 51, 0.5);
+  font-size: 1.5rem;
+  margin-top: 20px;
+}*/
+
+
+/*하단 글씨 가운데 정렬*/
+ .contacts>p,.footer>p{
+  text-align: center;
+  color: rgba(51, 51, 51, 0.6);
+  width: 774px;
+  margin: 0 auto;
+}
+
+/*하단 글씨 좌측 정렬*/
+/*.intro>p, .features-about2>p{
+width: 489px;
+height: 65px;
+color: rgba(51, 51, 51, 0.6);
+}*/
+
+
+/*------------헤더----------------*/
+.header{
+  padding-top: 80px;
+  padding-bottom: 55px;
+  display: block;
+  background: #03a67b;
+  position: relative;
+}
+
+.intro-heading{
+  padding-top: 80px;
+  color: white;
+}
+
+
+.logo{
+  position:absolute;
+  top: 62px;
+  left: 150px;
+
+}
+
+.navigation{
+  display: inline-block;
+  margin-left: 1267px;
+  color: inherit;
+  rgba(51, 51, 51, 0.5);
+  /*background: gray;*/
+  /*white-space: nowrap;*/
+}
+
+/*-----------인트로--------------*/
+.intro{
+  text-align: center;
+  background: #03a67b;
+}
+
+.intro>p{
+ text-align: center;
+ color: white;
+ width: 833px;
+ height: 65px;
+ margin: 0 auto;
+ opacity: 0.7;
+}
+
+.intro>form{
+  margin-top: 10px;
+}
+
+.button2{
+  margin: 26px 6px;
+  width: 200px;
+  height: 50px;
+  background: white;
+  border: 2px solid #03a67b;
+  border-radius: 4px;
+  color: #03a67b;
+  letter-spacing: 3px;
+  margin-top: 46px;
+}
+
+/*--------------피쳐스-----------------*/
+
+.templet-features{
+  padding-top: 120px;
+  /*padding-bottom: 55px;*/
+  display: block;
+  background: #03a67b;
+  position: relative;
+}
+
+.features{
+  height: 196px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-top: 50px;
+  position: relative;
+}
+
+.feature p:first-child{
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 27px;
+  letter-spacing: 3px;
+}
+
+.feature p:last-child{
+  color: white;
+  font-size: 1.5rem;
+  width: 351px;
+  height: 59px;
+  opacity: 0.5;
+  margin-bottom: 40px;
+}
+
+.features3::after{
+  text-align: center;
+  content: '';
+  background: #fff;
+  position: absolute;
+  top:160px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  opacity: 0.2;
+}
+
+/*-----------포트폴리오------------*/
+.portfolio{
+  height: 732px;
+  position: relative;
+}
+
+.portfolio-all{
+  width: 1140px;
+  height: 450px;
+  margin-top: 70px;
+  /*text-align: center;*/
+  display: inline-block;
+  position: relative;
+  /*background: blue;*/
+}
+
+.portfolio-all a{
+ display: block;
+}
+
+.portfolio-heading{
+  margin-top: 80px;
+}
+
+.portfolio-all img{
+  background:  #e8e8e8;
+  padding: 202px 251px;
+  margin-bottom: 10px;
+  /*display: inline;*/
+}
+
+.portfolio1 img{
+  float: left;
+}
+
+.portfolio2 img{
+  float: right;
+}
+
+.pofol{
+  /*background: green;
+  width: 1140px;
+  height: 377px;
+  display: inline-block;*/
+}
+
+.portfolio-all dt{
+  /*background: green;*/
+  font-size: 14px;
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.14;
+	letter-spacing: 3.5px;
+	text-align: center;
+	color: #03a67b;
+  margin-bottom: 7px;
+}
+
+.category{
+  position: absolute;
+  top: 470px;
+  width: 560px;
+  padding: 0 auto;
+  /*background: lime;*/
+  text-align: center;
+}
+
+.category2{
+  right: 0;
+}
+
+.product-name{
+  font-weight: 600;
+	letter-spacing: -0.7px;
+  position: absolute;
+  top: 490px;
+  width: 560px;
+  padding: 0 auto;
+  /*background: lime;*/
+  text-align: center;
+  font-size:  2.1rem;
+}
+
+.product-name2{
+  right: 0;
+}
+
+.price{
+font-size: 2.8rem;
+font-weight: 600;
+letter-spacing: -0.7px;
+color: rgba(51, 51, 51, 0.7);
+}
+
+.price1{
+  position: absolute;
+  top: 39px;
+  left: 39px;
+}
+.price2{
+  position: absolute;
+  top: 39px;
+  left: 619px;
+  /*background: lime;*/
+}
+
+.arrow-prev{
+  /*background: yellow;*/
+  position: absolute;
+  top: 350px;
+  left: -44px;
+}
+
+.arrow-next{
+  /*background: yellow;*/
+  position: absolute;
+  top: 350px;
+  right: -44px;
+}
+
+.arrow-prev, .arrow-next{
+  cursor: pointer;
+  width: 20px;
+  height: 38px;
+  text-indent: 38px;
+  white-space: nowrap;
+  border: 0px;
+  background: url(icons/arrow.png) no-repeat 0 0;
+  overflow: hidden;
+}
+
+.arrow-prev{
+  background-position: 0 100%;
+}
+.arrow-next{
+  background-position: 100% 0;
+}
+
+/*-----------services------------*/
+
+
+.company-services{
+  height: 732px;
+}
+
+.services div{
+  width: 335px;
+  /*background: navy;*/
+}
+
+.company-services p{
+ /*background: green;*/
+ width: 685px;
+ height: 41px;
+ margin: 0 auto;
+ text-align: center;
+ font-size: 1.5rem;
+ color: rgba(51, 51, 51, 0.5);
+}
+
+.services {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 66px;
+  /*background: pink;*/
+}
+
+
+.services ul li:last-child{
+  /*background: red;*/
+  margin-top: 25px;
+  color: rgba(51, 51, 51, 0.6);
+}
+
+
+li.service1{
+  /*background: red;*/
+  width: 210px;
+  height: 29px;
+  margin-top: 39px;
+  font-weight: bold;
+  color: #333333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.29;
+  padding: 0 62px;
+}
+
+.services img{
+  background:  #e8e8e8;
+  padding: 91px 139px;
+  display: inline-block;
+}
+
+
+/*-----------blog------------*/
+.blog{
+  height: 1290px;
+  /*width: 1140px;*/
+  position: relative;
+  width: 1140px;
+}
+
+.blog p{
+ /*background: green;*/
+ width: 685px;
+ height: 41px;
+ margin: 0 auto;
+}
+
+.blog-all{
+  background: gray;
+  width: 1140px;
+  margin-top: 58px;
+}
+
+.blog-all img{
+  background:  #e8e8e8;
+  padding: 127px 251px;
+  display: inline-block;
+}
+
+.blog-all ul{
+  width: 560px;
+}
+
+.blog-all ul li:first-child{
+  width: 560px;
+  /*background: aqua;*/
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.14;
+  letter-spacing: 3px;
+  text-align: left;
+  color: #03a67b;
+  margin-bottom: 12px;
+}
+
+.blog-all ul li:nth-child(2){
+  width: 560px;
+  /*background: aqua;*/
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 1.14;
+  letter-spacing: -0.7px;
+  color: #333333;
+  margin-bottom: 9px;
+}
+
+.blog-all ul li:last-child{
+opacity: 0.5;
+font-size: 1.6rem;
+line-height: 1.5;
+letter-spacing: normal;
+text-align: left;
+color: rgba(51, 51, 51, 0.5);
+margin-bottom: 46px;
+}
+
+.blog-all ul li:last-child::after{
+content: "";
+display: block;
+clear: both;
+}
+
+.blog1{
+  float: left;
+}
+
+.blog2{
+  float: right;
+}
+
+.blog-button{
+  position: absolute;
+  top: 1100px;
+  left: 453px;
+}
+/*
+.button1{
+  display: inline-block;
+  text-align: center;
+  margin: 0 100px;
+}*/
+
+/*------------버튼-------------*/
+.contacts{
+  position: relative;
+  text-align: center;
+  /*height: 599p  x;*/
+
+}
+
+.button,.blog-button{
+ margin: 26px 6px;
+ width: 200px;
+ height: 50px;
+ background: rgba(3,166,123,0.90);
+ padding: 0;
+ color: white;
+ letter-spacing: 3px;
+ border: 1px solid #03a67b;
+ border-radius: 4px;
+}
+
+
+.contacts input{
+  width: 289px;
+  height: 50px;
+  background: #d5d5d5;
+  border: 0;
+  padding-left: 24px;
+  box-sizing: border-box;
+  inline-hight: 10px;
+  border: 1px solid #d5d5d5;
+  border-radius: 4px;
+  /*text-align: left;*/
+}
+
+.buttons{
+  position: absolute;
+  top: 130px;
+  left: 398px;
+  white-space: nowrap;
+  margin-bottom: 50px;
+  /*font-size: 15px;*/
+}
+
+
+.contacts img{
+  padding-top: 140px;
+
+}
+
+.marker{
+  position: absolute;
+  top: 290px;
+  left: 660px;
+}
+
+/*-------------footer-----------------*/
+
+.footer{
+  text-align: center;
+  height: 210px;
+  position: relative;
+  /*font-size: 0;*/
+}
+
+.footer>p{
+  width: 312px;
+  height: 41px;
+}
+
+.tech-logo{
+  position: absolute;
+  top: 150px;
+  left:475px;
+  vertical-align: bottom;;
+}
+
+.tech-logo li, .tech-logo a{
+  display: inline-block;
+  margin: 0 3px;
+}
